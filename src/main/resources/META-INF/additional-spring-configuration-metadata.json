@@ -1,0 +1,14 @@
+{
+    "properties": [
+        {
+            "name": "weather.api.key",
+            "type": "java.lang.String",
+            "description": "Weatherstack API key"
+        },
+        {
+            "name": "weather.api.endpoint",
+            "type": "java.lang.String",
+            "description": "Weatherstack API endpoint'"
+        }
+    ]
+}
