@@ -13,7 +13,6 @@ import com.sudeeppadalkar.journalapp.entity.User;
 import com.sudeeppadalkar.journalapp.service.UserService;
 
 import org.springframework.dao.DuplicateKeyException;
-import org.springframework.dao.DuplicateKeyException;
 
 @RestController
 @RequestMapping("/public")
