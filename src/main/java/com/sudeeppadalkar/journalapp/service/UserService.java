@@ -61,4 +61,10 @@ public class UserService {
         return userRepository.save(user);
     }
 
+    public List<User> getAllAdminUsers() {
+        return userRepository.findAll().stream()
+                .filter(user -> user.getRoles() != null && user.getRoles().contains("ADMIN"))
+                .toList();
+    }
+
 }
